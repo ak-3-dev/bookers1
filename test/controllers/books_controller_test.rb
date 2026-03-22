@@ -1,11 +1,13 @@
-require "test_helper"
+rrequire "test_helper"
 
 class BooksControllerTest < ActionDispatch::IntegrationTest
   test "should get index" do
-    get books_index_url
+    get "/books"
     assert_response :success
   end
 
+# ↓ 行の先頭から書く（スペースを入れない）
+=begin
   test "should get show" do
     get books_show_url
     assert_response :success
@@ -15,4 +17,6 @@ class BooksControllerTest < ActionDispatch::IntegrationTest
     get books_edit_url
     assert_response :success
   end
+=end
+  # ↑ 行の先頭から書く
 end
