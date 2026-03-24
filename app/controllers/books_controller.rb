@@ -9,7 +9,8 @@ class BooksController < ApplicationController
 
     book.save
 
-    redirect_to "/top"
+    redirect_to book_path(book)
+    
   end
 
   def edit
