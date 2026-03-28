@@ -63,4 +63,4 @@ group :test do
   gem 'faker'
 end
 
-gem "minitest", "~> 5.0"
+gem "minitest", "~> 6.0"
