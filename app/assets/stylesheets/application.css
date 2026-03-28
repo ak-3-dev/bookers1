@@ -1,3 +1,19 @@
+#notice {
+  color: green;
+}
+
+#error_explanation {
+  color: red;
+}
+
+td {
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+
+td:nth-child(2) {
+  word-break: break-all;
+}
 /*
  * This is a manifest file that'll be compiled into application.css.
  *
